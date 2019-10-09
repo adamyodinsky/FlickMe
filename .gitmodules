@@ -1,0 +1,6 @@
+[submodule "FrontEnd"]
+	path = FrontEnd
+	url = https://github.com/adamyodinsky/Mochooe-FrontEnd.git
+[submodule "BackEnd"]
+	path = BackEnd
+	url = https://github.com/adamyodinsky/Mochooe-BackEnd.git
