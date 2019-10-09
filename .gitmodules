@@ -4,3 +4,6 @@
 [submodule "BackEnd"]
 	path = BackEnd
 	url = https://github.com/adamyodinsky/Mochooe-BackEnd.git
+[submodule "Scraper"]
+	path = Scraper
+	url = https://github.com/adamyodinsky/Mochooe-Scraper.git
