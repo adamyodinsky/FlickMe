@@ -1,9 +1,9 @@
 [submodule "FrontEnd"]
 	path = FrontEnd
-	url = https://github.com/adamyodinsky/Mochooe-FrontEnd.git
+	url = https://github.com/adamyodinsky/FlickMe-FrontEnd.git
 [submodule "BackEnd"]
 	path = BackEnd
-	url = https://github.com/adamyodinsky/Mochooe-BackEnd.git
+	url = https://github.com/adamyodinsky/FlickMe-BackEnd.git
 [submodule "Scraper"]
 	path = Scraper
-	url = https://github.com/adamyodinsky/Mochooe-Scraper.git
+	url = https://github.com/adamyodinsky/FlickMe-Scraper.git
