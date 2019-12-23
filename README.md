@@ -1,1 +1,1 @@
-# Flick-Me
+# FlickMe
