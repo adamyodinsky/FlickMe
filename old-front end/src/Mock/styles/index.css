@@ -1,0 +1,112 @@
+
+/* universal selector - reset to default values css attributes */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "sans-serif", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    /*padding: 1rem;*/
+    box-sizing: border-box;
+}
+
+.background {
+    position: absolute;
+    left:0;
+    right:0;
+    top: 0;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(255, 246, 230, 0.8),
+            rgba(106, 78, 64, 0.8));
+    /*url(../resources/s);*/
+    background-size: cover; /* responsively fully cover the box */
+    background-position: top;
+    filter: blur(0.5rem);
+    -webkit-filter: blur(0.5rem);
+    z-index: 1;
+    opacity: 0.4;
+    background-repeat: repeat;
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    z-index: 2;
+    overflow: auto;
+}
+
+.header {
+    position: relative;
+}
+
+
+.shadow {
+    -webkit-filter: drop-shadow(0 1.2rem 0.5rem rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 1.2rem 0.5rem rgba(0, 0, 0, 0.2));
+}
+
+.logo-icon-box {
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.logo {
+    text-align: center;
+    padding: 3rem;
+    margin: 3rem;
+    animation: moveInTop 2s ease-out;
+}
+
+.icon {
+    text-align: center;
+    padding: 3rem;
+    margin: 3rem;
+    animation: moveInBottom 1.5s ease-out;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(6.5rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-6.5rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
