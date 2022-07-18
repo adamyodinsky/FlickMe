@@ -1,0 +1,11 @@
+{
+  "name": "moviesdata",
+  "version": "1.0.0",
+  "description": "get movies data bu populat APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Yodinsky",
+  "license": "ISC"
+}
